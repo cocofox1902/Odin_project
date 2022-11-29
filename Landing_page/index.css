@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar */
+.Navbar {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.header_logo {
+    color: #FFF;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 400px;
+}
+
+.header_link_all {
+    align-self: center;
+}
+
+.header_link {
+    align-items: center;
+    color: #E5E7EB;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* Home */
+.Home {
+    background-color: #1F2937;
+}
+
+/* Information */
+.Information {
+    background-color: #FFF;
+}
+
+/* Quote */
+.Quote {
+    background-color: #E5E7EB;
+}
+
+/* Sign */
+.Sign {
+    background-color: #FFF;
+}
+
+/* Copyright */
+.Copyright {
+    background-color: #1F2937;
+}
