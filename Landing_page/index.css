@@ -32,7 +32,26 @@
 /* Home */
 .Home {
     background-color: #1F2937;
+    display: flex;
+    padding: 20px;
+    padding-top: 100px;
 }
+
+.home_div1 {
+    width: 35%;
+}
+
+.home_title {
+    color: #FFF;
+    font-size: 30px;
+}
+
+.home_text {
+    color: #E5E7EB;
+    font-size: 15px;
+}
+
+.home_div2 {}
 
 /* Information */
 .Information {
