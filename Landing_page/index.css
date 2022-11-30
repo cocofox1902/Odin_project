@@ -14,7 +14,7 @@
     color: #FFF;
     font-size: 20px;
     padding-top: 10px;
-    padding-right: 400px;
+    padding-right: 510px;
 }
 
 .header_link_all {
@@ -34,41 +34,157 @@
     background-color: #1F2937;
     display: flex;
     padding: 20px;
-    padding-top: 100px;
+    padding-top: 120px;
+    padding-bottom: 168px;
 }
 
 .home_div1 {
     width: 35%;
+    padding-left: 100px;
 }
 
 .home_title {
     color: #FFF;
-    font-size: 30px;
+    font-size: 45px;
 }
 
 .home_text {
     color: #E5E7EB;
-    font-size: 15px;
+    font-size: 17px;
+    margin-top: 5px;
 }
 
-.home_div2 {}
+.home_button {
+    background-color: #3882F6;
+    border-width: 0px;
+    border-radius: 10px;
+    color: #FFF;
+    font-size: 18px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.home_div2 {
+    width: 40%;
+    margin-left: 70px;
+    background-color: #aaabad;
+}
 
 /* Information */
 .Information {
     background-color: #FFF;
+    padding-top: 40px;
+}
+
+.info_title {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.info_sub {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info_avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+}
+
+.info_text {
+    padding-top: 10px;
+    padding-bottom: 130px;
+    width: 160px;
+    text-align: center;
+    color: #8d8d8d;
+    font-weight: 600;
 }
 
 /* Quote */
 .Quote {
     background-color: #E5E7EB;
+    height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote_div {
+    width: 915px;
+    height: 180px;
+}
+
+.quote_i {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.quote_p {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: right;
 }
 
 /* Sign */
 .Sign {
     background-color: #FFF;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+
+.sign_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #3882F6;
+}
+
+.sign_div2 {
+    padding-right: 200px;
+}
+
+.sign_h3 {
+    font-size: 26px;
+}
+
+.sign_p {
+    color: #E5E7EB;
+}
+
+.sign_button {
+    font-size: 20px;
+    border: #FFF solid 2px;
+    background-color: #3882F6;
+    color: #FFF;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /* Copyright */
 .Copyright {
     background-color: #1F2937;
+    height: 100px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
